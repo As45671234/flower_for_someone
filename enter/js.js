@@ -7,7 +7,7 @@ window.onload = () => {
       const username = usernameInput.value.trim().toLowerCase();
         
       if (username === 'nargiz' || username === 'наргиз' || username === 'nako' || username === 'нако') {
-        window.location.href = `../index.html`;
+        window.location.href = `../index1.html`;
       } else {
         errorMessage.textContent = 'Это не для тебя!';
       }
