@@ -7,7 +7,7 @@ window.onload = () => {
       const username = usernameInput.value.trim().toLowerCase();
         
       if (username === 'nargiz' || username === 'наргиз' || username === 'nako' || username === 'нако') {
-        window.location.href = `index12.html`;
+        window.location.href = `flower_for_someone/index12.html`;
       } else {
         errorMessage.textContent = 'Это не для тебя!';
       }
